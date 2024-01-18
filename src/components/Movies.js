@@ -1,7 +1,6 @@
 import React, { useState, startTransition} from 'react'
-import { Container, Stack, TextField, Rating, Autocomplete, Button } from '@mui/material';
+import { Container, Stack, TextField, Rating, Autocomplete } from '@mui/material';
 import MoviesList from './MoviesList';
-// import MovieFilter from './MovieFilter';
 
 const movieData = [
     { id:1, title: 'The Matrix', rating: 7, category: 'Action' },
